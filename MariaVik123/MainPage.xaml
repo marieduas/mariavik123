@@ -19,10 +19,14 @@
          VerticalOptions="Fill"/>
          
   <Button x:Name="botaoiniciar"
-          Text="Iniciar"
-          Color="#01000d" 
-          Margin="5"
-          TextColor="#f2f5f5"  
-          FontSize="16"/>
-<ContentPage/>
+         BackgroundColor="#3c1347"
+         TextColor="White"
+         CornerRadius="25"
+         FontAttributes="Bold"
+         FontSize="18"
+         HeightRequest="50"
+         HorizontalOptions="FillAndExpand"
+         VerticalOptions="CenterAndExpand"/>
+</Grid>
+</ContentPage>
   
