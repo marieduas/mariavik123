@@ -11,22 +11,27 @@
       <RowDefinition Height="5"/>
     </Grid.RowDefinitions>
   <Image
-         Margin="5"
-         HeightRequest="150"
          Source="lobo.png"
          Aspect="AspectFill"
-         HorizontalOptions="FillAndExpand"
-         VerticalOptions="Fill"/>
-         
-  <Button x:Name="botaoiniciar"
-         BackgroundColor="#3c1347"
-         TextColor="White"
-         CornerRadius="25"
-         FontAttributes="Bold"
-         FontSize="18"
-         HeightRequest="50"
-         HorizontalOptions="FillAndExpand"
-         VerticalOptions="CenterAndExpand"/>
+         Opacity="5"/>
+  <Label
+        Text="quiz de teew wolf"
+        TextColor="White"
+        Margin="15"
+        FontSize="60"
+        FontFamily="...."
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+  <Button
+        Text="Iniciar"
+        HeightRequest="50"
+        CornerRadius="25"
+        BackgroundColor="#a1080d"
+        TextColor="#01000d"
+        Margin="0,0,0,8"
+        FontSize="15"
+        FontFamily="..."/>
+ 
 </Grid>
 </ContentPage>
   
