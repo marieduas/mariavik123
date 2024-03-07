@@ -24,13 +24,24 @@
         VerticalOptions="Center"/>
   <Button
         Text="Iniciar"
+        Clicked="iniciarjogoquandoclicado"
         HeightRequest="50"
         CornerRadius="25"
         BackgroundColor="#a1080d"
         TextColor="#01000d"
-        Margin="0,0,0,8"
+        Margin="0,100,0,0"
         FontSize="15"
         FontFamily="..."/>
+  <Button
+        Text="Preferencias"
+        Clicked="Irparapreferenciasquandoclicado"
+        HeightRequest="50"
+        CornerRadius="25"
+        BackgroundColor="#a1080d"
+        TextColor="#01000d"
+        Margin="0,100,0,0"
+        FontSize="15"
+        FontFamily="..."     
  
 </Grid>
 </ContentPage>

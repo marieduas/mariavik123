@@ -8,6 +8,14 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-  
+	void iniciarjogoquandoclicado(object sender, EventArgs args) 
+	{
+		Application.Current.MainPage = new GamePage();
+	}
+
+	void Irparapreferenciasquandoclicado(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new preferenciasPage();
+	}
 }
 
