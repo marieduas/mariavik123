@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MariaVik123.preferenciaPage">
+<Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+<Label 
+        Text="preferencias"
+        TextColor="Black"
+        Grid.Row="0"
+        Margin="15"
+        FontSize="45"
+        FontFamily="...."
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+<Button
+        Text="Voltar"
+        Clicked="buttonvoltar"
+        HeightRequest="50"
+        Grid.Row="1"
+        CornerRadius="25"
+        BackgroundColor="#a1080d"
+        TextColor="#01000d"
+        Margin="0,100,0,0"
+        FontSize="15"
+        FontFamily="..." /> 
+</Grid>
+</ContentPage>             

@@ -15,7 +15,11 @@ public partial class MainPage : ContentPage
 
 	void Irparapreferenciasquandoclicado(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new preferenciasPage();
+		Application.Current.MainPage = new preferenciaPage();
+	}
+	void irparasobrequandoclicado(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new sobrePage();
 	}
 }
 
