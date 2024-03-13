@@ -3,9 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MariaVik123.sobrePage">
 
-
-<Button
+<Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+<Label Grid.Row="1"
         Text="Sobre"
+        TextColor="Black"
+        Margin="15"
+        FontSize="45"
+        FontFamily="...."
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+ <Label Grid.Row="2"
+        Text="Este jogo foi criado para saber o quão fã de teew wholf"
+        TextColor="Black"
+        Margin="10"
+        FontSize="25"
+        FontFamily="...."
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+<Button Grid.Row="3"
+        Text="Voltar"
         Clicked="buttonvoltar"
         HeightRequest="50"
         CornerRadius="25"
@@ -13,5 +34,6 @@
         TextColor="#01000d"
         Margin="0,100,0,0"
         FontSize="15"
-        FontFamily="..."/>      
+        FontFamily="..."/>  
+        </Grid>          
 </ContentPage>

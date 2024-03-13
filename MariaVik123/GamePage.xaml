@@ -2,5 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MariaVik123.GamePage">
+<Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+<Image  Grid.Row="2"
+      Source=""
+      Aspect="AspectFill"
+      Opacity="5"/> 
 
+<Label Grid.Row="3"
+        Text="Scot se tornou lobo alpha em qual temporada?"
+        TextColor="Black"
+        Margin="15"
+        FontSize="45"
+        FontFamily="...."
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+</Grid>
 </ContentPage>
