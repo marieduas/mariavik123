@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MariaVik123.GamePage">
+             x:Class="MariaVik123.SegundaPage">
 <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="60"/>
       <RowDefinition Height="60"/>
       <RowDefinition Height="60"/>
       <RowDefinition Height="60"/>
@@ -17,29 +16,23 @@
       Opacity="5"/> 
 
 <Label Grid.Row="1"
-        Text="Que tipo de sobrenatural Nádia faz parte?"
+        Text="Scot se tornou lobo alpha em qual temporada?"
         TextColor="Black"
         Margin="15"
-        FontSize="45"
         FontFamily="...."
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
 
-<Button Text="Banchi"
+<Button Text="2"
         HeightRequest="50"
-        Clicked="quandoclicarnobotaosim"
+        Clicked="quandoclicarnobotaonao"
         Grid.Row="2"/>
 
 
-<Button Text="Lobo"
+<Button Text="1º"
         HeightRequest="50"
-        Clicked="quandoclicarnobotaonao"
+        Clicked="quandoclicarnobotaosim"
         Grid.Row="3"/>
-        
-<Button Text="Humana"
-        HeightRequest="50"
-        Clicked="quandoclicarnobotaonao"
-        Grid.Row="4"/>
 
 </Grid>
 </ContentPage>

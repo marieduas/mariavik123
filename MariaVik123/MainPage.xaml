@@ -5,22 +5,20 @@
  <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
+      <RowDefinition Height="60"/>
+      <RowDefinition Height="60"/>
+      <RowDefinition Height="60"/>
     </Grid.RowDefinitions>
   <Image
          Source="lobo.png"
          Aspect="AspectFill"
          Opacity="5"/>
   <Label
-        Text="quiz de teew wolf"
+        Text="Quiz de teew wolf"
         TextColor="White"
         Margin="15"
         FontSize="60"
-        FontFamily="...."
+        FontFamily="FonteJogo"
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
   <Button Grid.Row="1"
@@ -30,7 +28,6 @@
         CornerRadius="25"
         BackgroundColor="#a1080d"
         TextColor="#01000d"
-        Margin="0,100,0,0"
         FontSize="15"
         FontFamily="..."/>
   <Button Grid.Row="2"
@@ -40,7 +37,6 @@
         CornerRadius="25"
         BackgroundColor="#a1080d"
         TextColor="#01000d"
-        Margin="0,100,0,0"
         FontSize="15"
         FontFamily="..." /> 
   <Button Grid.Row="3"
@@ -50,7 +46,6 @@
         CornerRadius="25"
         BackgroundColor="#a1080d"
         TextColor="#01000d"
-        Margin="0,100,0,0"
         FontSize="15"
         FontFamily="..."/>             
  
