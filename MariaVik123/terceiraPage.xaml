@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MariaVik123.GamePage">
+             x:Class="MariaVik123.terceiraPage">
+
 <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
@@ -17,29 +18,28 @@
       Opacity="5"/> 
 
 <Label Grid.Row="1"
-        Text="Que tipo de sobrenatural Lydia faz parte?"
+        Text="Quem era o melhor amigo de Scott"
         TextColor="Black"
         Margin="15"
-        FontSize="14"
         FontFamily="...."
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
 
-<Button Text="Banchi"
+<Button Text="Théo"
         HeightRequest="50"
-        Clicked="quandoclicarnobotaosim"
+        Clicked="quandoclicarnobotaonao"
         Grid.Row="2"/>
 
 
-<Button Text="Lobo"
+<Button Text="Stiles"
         HeightRequest="50"
-        Clicked="quandoclicarnobotaonao"
+        Clicked="quandoclicarnobotaosim"
         Grid.Row="3"/>
-        
-<Button Text="Humana"
+
+<Button Text="Derik"
         HeightRequest="50"
         Clicked="quandoclicarnobotaonao"
-        Grid.Row="4"/>
+        Grid.Row="2"/>
 
 </Grid>
 </ContentPage>

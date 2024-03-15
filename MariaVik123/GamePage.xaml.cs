@@ -14,6 +14,6 @@ public partial class GamePage : ContentPage
 
 	void quandoclicarnobotaonao(object sender,EventArgs args)
 	{
-		//Application.Current.MainPage = new GameOverPage();
+		Application.Current.MainPage = new GameOverPage();
 	}
 }

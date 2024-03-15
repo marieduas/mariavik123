@@ -8,6 +8,7 @@
       <RowDefinition Height="*"/>
       <RowDefinition Height="50"/>
       <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
     </Grid.RowDefinitions>
 <Label Grid.Row="1"
         Text="Sobre"
@@ -18,7 +19,7 @@
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
  <Label Grid.Row="2"
-        Text="Este jogo foi criado para saber o quão fã de teew wholf"
+        Text="Este jogo foi criado para saber o quão fã de teen wholf você é!"
         TextColor="Black"
         Margin="10"
         FontSize="25"

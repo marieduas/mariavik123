@@ -5,11 +5,8 @@
 <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
+      <RowDefinition Height="60"/>
+   
     </Grid.RowDefinitions>
 <Label 
         Text="preferencias"
@@ -18,8 +15,6 @@
         Margin="15"
         FontSize="45"
         FontFamily="...."
-        HorizontalOptions="Center"
-        VerticalOptions="Center"/>
 <Button
         Text="Voltar"
         Clicked="buttonvoltar"
