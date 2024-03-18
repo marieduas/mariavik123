@@ -8,14 +8,15 @@
       <RowDefinition Height="60"/>
       <RowDefinition Height="60"/>
       <RowDefinition Height="60"/>
+      <RowDefinition Height="60"/>
     </Grid.RowDefinitions>
 
 <Image  Grid.Row="0"
-      Source="lobo.png"
-      Aspect="AspectFill"
-      Opacity="5"/> 
+        Source="todos.png"
+        Aspect="AspectFill"
+        Opacity="5"/> 
 
-<Label Grid.Row="1"
+<Label  Grid.Row="1"
         Text="Scot se tornou lobo alpha em qual temporada?"
         TextColor="Black"
         Margin="15"
@@ -23,16 +24,20 @@
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
 
-<Button Text="2"
+<Button Text="No final da 2º temporada"
         HeightRequest="50"
         Clicked="quandoclicarnobotaonao"
         Grid.Row="2"/>
 
+<Button Text="No começo da 2º temporada"
+        HeightRequest="50"
+        Clicked="quandoclicarnobotaonao"
+        Grid.Row="3"/>
 
-<Button Text="1º"
+<Button Text="Final da 4º temporada"
         HeightRequest="50"
         Clicked="quandoclicarnobotaosim"
-        Grid.Row="3"/>
+        Grid.Row="4"/>
 
 </Grid>
 </ContentPage>

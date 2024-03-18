@@ -5,11 +5,12 @@ public partial class preferenciaPage : ContentPage
 
 	public preferenciaPage()
 	{
-		InitializeComponent();
+	    InitializeComponent();
 	}
+	
 
     void buttonvoltar(object sender, EventArgs args)
 	{
 		Application.Current.MainPage = new MainPage();
-}    
+    }    
 }

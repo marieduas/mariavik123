@@ -14,7 +14,7 @@
         Grid.Row="0"
         Margin="15"
         FontSize="45"
-        FontFamily="...."
+        FontFamily="...."/>
 <Button
         Text="Voltar"
         Clicked="buttonvoltar"
@@ -23,7 +23,6 @@
         CornerRadius="25"
         BackgroundColor="#a1080d"
         TextColor="#01000d"
-        Margin="0,100,0,0"
         FontSize="15"
         FontFamily="..." /> 
 </Grid>

@@ -3,4 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MariaVik123.GameOverPage">
 
+<Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="70"/>
+   
+    </Grid.RowDefinitions>
+<Label 
+        Text="Game Over"
+        TextColor="Black"
+        Grid.Row="0"
+        Margin="15"
+        FontSize="45"
+        FontFamily="...."/>
+<Button
+        Text="Voltar"
+        Clicked="quandoclicarnobotaovoltar"
+        HeightRequest="50"
+        Grid.Row="1"
+        CornerRadius="25"
+        BackgroundColor="#a1080d"
+        TextColor="#01000d"
+        FontSize="15"
+        FontFamily="..." /> 
+</Grid>
 </ContentPage>

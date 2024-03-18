@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MariaVik123.terceiraPage">
+             x:Class="MariaVik123.sextaPage">
 
 <Grid>
     <Grid.RowDefinitions>
@@ -18,28 +18,29 @@
       Opacity="5"/> 
 
 <Label Grid.Row="1"
-        Text="Quem era o melhor amigo de Scott"
+        Text="Quantos personagens eram os principais?"
         TextColor="Black"
         Margin="15"
         FontFamily="...."
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
 
-<Button Text="Théo"
+<Button Text="5"
         HeightRequest="50"
         Clicked="quandoclicarnobotaonao"
         Grid.Row="2"/>
 
 
-<Button Text="Stiles"
-        HeightRequest="50"
-        Clicked="quandoclicarnobotaosim"
-        Grid.Row="3"/>
-
-<Button Text="Derik"
+<Button Text="2"
         HeightRequest="50"
         Clicked="quandoclicarnobotaonao"
+        Grid.Row="3"/>
+
+<Button Text="7"
+        HeightRequest="50"
+        Clicked="quandoclicarnobotaosim"
         Grid.Row="4"/>
 
 </Grid>
-</ContentPage>
+
+</ContentPage>       

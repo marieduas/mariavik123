@@ -1,13 +1,13 @@
 namespace MariaVik123;
 
-public partial class terceiraPage : ContentPage
+public partial class sextaPage : ContentPage
 {
-    public terceiraPage()
-	{
-		InitializeComponent();
-	}
+    public sextaPage()
+    {
+        InitializeComponent();
+    }
 
-	void quandoclicarnobotaovoltar(object sender,EventArgs args)
+    void quandoclicarnobotaovoltar(object sender,EventArgs args)
 	{
 		Application.Current.MainPage = new MainPage();
 	}
@@ -19,6 +19,7 @@ public partial class terceiraPage : ContentPage
 
     void quandoclicarnobotaosim(object sender,EventArgs args)
     {
-        Application.Current.MainPage = new quartaPage();
+        Application.Current.MainPage = new MainPage();
     }
 }
+
