@@ -8,32 +8,28 @@
       <RowDefinition Height="*"/>
       <RowDefinition Height="50"/>
       <RowDefinition Height="50"/>
-      <RowDefinition Height="50"/>
     </Grid.RowDefinitions>
-<Label Grid.Row="1"
+<Label Grid.Row="0"
         Text="Sobre"
         TextColor="Black"
-        Margin="15"
         FontSize="45"
         FontFamily="...."
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
- <Label Grid.Row="2"
-        Text="Este jogo foi criado para saber o quão fã de teen wholf você é!"
+ <Label Grid.Row="1"
+        Text="Trabalho feito por Maria Eduarda Alves e Victória Fernanda,na aula de desenvolvimento de sistemas com o professor Thiago Macedo, no colégio sesi da industria "
         TextColor="Black"
-        Margin="10"
         FontSize="25"
         FontFamily="...."
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
-<Button Grid.Row="3"
+<Button Grid.Row="2"
         Text="Voltar"
         Clicked="buttonvoltar"
         HeightRequest="50"
         CornerRadius="25"
         BackgroundColor="#a1080d"
         TextColor="#01000d"
-        Margin="0,100,0,0"
         FontSize="15"
         FontFamily="..."/>  
         </Grid>          
